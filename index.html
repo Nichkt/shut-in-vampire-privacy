@@ -34,14 +34,17 @@
     <p>The game stores your chosen player name, progress, story choices, settings, and
       timing information needed to calculate idle earnings. This information stays in the
       app's local storage on your device. You can use a fictional player name.
-      The app disables Android's automatic backup of its data.</p>
+      Music and effects are synthesized locally; the game does not record audio.
+      Android cloud backup and device-to-device transfer are disabled.</p>
     <p>You can reset game progress in Settings. To remove all app data, use Android's
       Clear storage option or uninstall the game. Without a manual exported save, deleted
-      progress cannot be recovered by the developer.</p>
+      progress cannot be recovered by the developer. Resetting progress does not clear
+      the separate sound preference or any legacy WebView save.</p>
 
     <h2>Manual save export and import</h2>
     <p>You may choose to copy an exported save or paste a save to import it. Exported saves
-      include game progress, your chosen player name, and story choices. The game does not
+      include game progress, your chosen player name, and story choices, but not the separate
+      sound preference. The game does not
       upload exports automatically. If you put an export in a file, clipboard, message, or
       cloud service, that copy is under your control and the relevant service's privacy
       practices apply. Resetting or uninstalling the game does not delete copies you made elsewhere.</p>
@@ -63,8 +66,9 @@
 
     <h2>This website and platform services</h2>
     <p>This static policy page has no advertising, analytics scripts, forms, or tracking
-      cookies added by the developer. It is hosted on GitHub Pages. GitHub may process
-      technical information, including IP addresses, to serve and secure the website under its
+      cookies added by the developer. It is hosted on GitHub Pages. GitHub Pages logs and
+      stores visitors' IP addresses for security purposes, whether or not they are signed
+      into GitHub. See GitHub's
       <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>.</p>
     <p>Google Play and Android provide distribution, device, and platform services under
       their own privacy practices. Those services are separate from the game's offline
